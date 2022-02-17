@@ -1,0 +1,100 @@
+
+
+.hair {
+    position: absolute;
+    background-color: #a6abad;
+    width: 70px;
+    height: 45px;
+    left: 33%;
+    top: -18px;
+    clip-path: ellipse(); 
+    z-index: 2;   
+}
+.heartShadow {
+    position: absolute;
+    background-color: #6b787c;
+    width: 70px;
+    height: 29px;
+    left: 39%;
+    top: 2px;
+    clip-path: ellipse(); 
+    z-index: 1; 
+    border-radius: 1px 1000px 1020px 10px; 
+}
+.zigzag {
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    background: #a6abad;
+    margin-top: -225px;
+    margin-left: 840px;
+    border-radius: 550px 550px 500px 500px;
+    border: 1px solid #1616164b;     
+}
+
+.zigzag::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 17px;
+    width: 80%;
+    height: 50px;
+    background: linear-gradient(-45deg, rgb(196, 159, 41) 32px,
+    transparent 0%), linear-gradient(45deg, rgb(196, 159, 41) 32px, 
+    transparent 0%);
+    background-size: 25px;  
+    border-radius: 0px 0px 1000px 1000px;      
+}
+.userclothes {
+    position: absolute;
+    background-color: rgb(185, 12, 113);
+    margin-left: 840px;
+    margin-top: -73px;
+    width: 170px;
+    height: 70px;
+    border-radius: 1000px 1000px 0px 0px;
+}
+.earE {
+    position: absolute;
+    background-color: rgb(196, 159, 41);
+    width:10px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: -5px;
+    border-radius: 30px 0px 0px 35px;
+    -ms-transform: skew(10deg);
+    -webkit-transform: skew(12deg);
+    transform-origin: bottom left;
+}
+.earD {
+    position: absolute;
+    background-color: rgb(196, 159, 41);
+    width:10px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: 165px;
+    border-radius: 0px 35px 35px 0px;
+    -ms-transform: skew(10deg);
+    -webkit-transform: skew(-10deg);
+    transform-origin: bottom left;
+}
+.arm {
+    background-color: rgb(185, 12, 113);
+    position: absolute;
+    width: 70px;
+    height: 81px;
+    margin-left: 130px;
+    top: 140px;
+   clip-path: polygon(52% 25%, 110% 26%, 60% 112%, 35% 55%, 40% 60% );    
+}
+.hand {
+    position: absolute;
+    background-color: rgb(196, 159, 41);
+    width: 33px;
+    height: 35px;
+    left: 170px;
+    top: 140px;
+    border-radius: 350px 350px 100px 100px;
+}

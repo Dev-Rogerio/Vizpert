@@ -1,0 +1,31 @@
+.circulo {    
+    position: absolute;
+    background-color: #d253dd;
+    width:150px;
+    height: 150px;
+    top: 20px;
+    left:43%;
+    border-radius: 50%;
+    border: 3px solid #000;
+    padding: 5px;
+}
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px;
+    color: #fff;
+    
+}
+.library {
+    margin: -8px;
+}
+.tech {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    text-align: center;
+    letter-spacing: 0px;  
+    font-weight: 20;
+}
+img {
+    margin-left: 25px;
+}
