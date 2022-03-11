@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './curtain.css';
-
+//cortina de fundo
 
 function Curtain () {
     return (

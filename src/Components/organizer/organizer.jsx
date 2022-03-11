@@ -12,48 +12,58 @@ function Organizer (props) {
         {
             name: 'a',
             color: 'yellow',
-            size: 2
+            size: 1,
+            colorValue: 5 
         },
         {
             name: 'b',
             color: 'red',
-            size: 1
+            size: 2,
+             colorValue: 4
         },
         {
             name: 'c',
             color: 'orange',
-            size: 3
+            size: 3,
+            colorValue: 3
         },
         {
             name: 'd',
             color: 'lilac',
-            size: 4
+            size: 4,
+            colorValue: 2
         },
 
         {
             name: 'e',
             color: 'lightblue',
-            size: 5
+            size: 5,
+            colorValue: 1
         },
         {
             name: 'f',
             color: 'pink',
-            size: 6
+            size: 6,
+            colorValue: 6 
+
         },
         {
             name: 'g',
             color: 'green',
-            size: 7
+            size: 7,
+            colorValue: 7
         },
         {
             name: 'h',
             color: 'darkblue',
-            size: 8
+            size: 8,
+            colorValue: 9
         },
         {
             name: 'i',
             color: 'lightpink',
-            size: 5
+            size: 9,
+            colorValue: 8
         },
 
 

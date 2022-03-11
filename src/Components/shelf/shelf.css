@@ -24,6 +24,13 @@
    padding: 6px;
    border-radius: 8px;   
 }
+.librarybook1 {
+    background-color:rgb(73, 60, 60);
+    width: 400px;
+    height: 30px;    
+    border-radius: 0px 0px 8px 8px;  
+    margin: 37px -6px;
+}
 .shelftwo {
     background-color: rgb(48, 34, 19);
     width: 400px;
@@ -33,16 +40,10 @@
     border-radius: 8px;  
     top: 50px;   
 }
-.librarybook1 {
-    background-color:rgb(73, 60, 60);
-    width: 412px;
-    height: 30px;    
-    border-radius: 0px 0px 8px 8px;  
-    margin: 37px -6px;
-}
+
 .librarybook2 {
     background-color:rgb(73, 60, 60);
-    width: 412px;
+    width: 400px;
     height: 30px;    
     border-radius: 0px 0px 8px 8px;  
     margin: 37px -6px;

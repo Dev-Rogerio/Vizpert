@@ -3,21 +3,21 @@ import React, { useState } from 'react';
 
 import './panel.css';
 
-
-
-const Panel = (props) => {
-
-
-   
+const Panel = (props) => {  
 
     const organizarAZ = () => {
-        let newbooks = props.books.sort((a,b)=>a.name > b.name) 
-       if(newbooks === props.books){
-           newbooks.reverse()
-           
-       }
-       props.setBooks(newbooks)
+        let newbooks = Array.from(props.books)
+        newbooks.sort((a,b)=> a.name - b.name)
+        if(newbooks.every((a,i)=> a=== props.books[i])) newbooks.reverse()
+        props.setBooks(newbooks)
         
+    }
+    const organizarCor=() => {
+        let newbooks = Array.from(props.books)
+        newbooks.sort((a, b) => a.colorValue - b.colorValue)
+        if (newbooks.every((a, i) => a === props.books[i])) newbooks.reverse()
+        props.setBooks(newbooks)
+
     }
 
     return (
@@ -25,7 +25,7 @@ const Panel = (props) => {
             <div className='panel'>
                 <div className='sortby'>SORT - BY</div>
                 <button className='A-Z' onClick={organizarAZ}><li>A</li><li>Z</li></button>
-                <button className='bookcolor'>
+                <button className='bookcolor' onClick={organizarCor}> 
                     <header className="red"></header>
                     <section className='yellow'></section>
                     <main className='green'></main>
